@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001f3f" />
+      <stop offset="50%" stop-color="#102b5f" />
+      <stop offset="100%" stop-color="#d4af37" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad)" />
+  <text x="80" y="260" fill="#d4af37" font-size="64" font-family="Poppins, Arial, sans-serif" letter-spacing="12">COSMIC RAGS LTD</text>
+  <text x="80" y="350" fill="#ffffff" font-size="42" font-family="Poppins, Arial, sans-serif">Premium Digital Products &amp; Automation Systems</text>
+  <text x="80" y="420" fill="#ffffff" font-size="28" font-family="Lato, Arial, sans-serif">Empowering Creativity Through Digital Innovation</text>
+</svg>
