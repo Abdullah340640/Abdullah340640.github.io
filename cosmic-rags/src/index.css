@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-background text-slate-900 dark:bg-background-dark dark:text-slate-100 font-body transition-colors duration-300;
+}
+
+a {
+  @apply text-brand-gold underline-offset-8 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:ring-offset-2 focus-visible:ring-offset-background dark:focus-visible:ring-offset-background-dark;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.35);
+  color: #001f3f;
+}
+
+.glass-panel {
+  @apply bg-white/80 dark:bg-surface-dark/70 backdrop-blur-lg border border-white/40 dark:border-white/10 shadow-lg;
+}
+
+.heading-gradient {
+  background: linear-gradient(135deg, #d4af37 0%, #4a7dff 50%, #5b4bff 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-gold px-6 py-3 text-sm font-semibold text-brand-navy shadow-lg shadow-brand-gold/30 transition-all duration-300 hover:shadow-glow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold/80;
+}
+
+.button-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-brand-gold/40 px-6 py-3 text-sm font-semibold text-brand-gold transition-all duration-300 hover:border-brand-gold hover:bg-brand-gold/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold/60;
+}
